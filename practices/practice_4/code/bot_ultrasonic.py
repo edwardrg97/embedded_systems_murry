@@ -15,7 +15,7 @@ GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
 GPIO.setup(GPIO_ECHO, GPIO.IN)
 
 
-bot = telepot.Bot('2008128052:AAHB68zl15lodsB4HAYTCVkXmCDiciEJelw')
+bot = telepot.Bot('')
 
 
 def getDistance():
