@@ -6,7 +6,7 @@ from telepot.loop import MessageLoop
 GPIO.setmode(GPIO.BCM)
 LED_PIN = 17
 GPIO.setup(LED_PIN, GPIO.OUT)
-bot = telepot.Bot('2008128052:AAHB68zl15lodsB4HAYTCVkXmCDiciEJelw')
+bot = telepot.Bot('')
 
 #Turn on and off functions
 def turnOn(chatId):
